@@ -110,13 +110,16 @@ video {
     color: white;
     width: 220px;
     margin-top: 10px;
+    transition: .8s;
 }
 
 .btn-2:hover {
-    background-color: white;
+    background-color: var(--green);
     color: black;
     width: 220px;
     margin-top: 10px;
+    border-radius: 40px;
+    transition: .5s;
 }
 
 .btn-1 {
@@ -125,14 +128,17 @@ video {
     width: 220px;
     margin-top: 10px;
     margin-right: 20px;
+    transition: .8s;
 }
 
 .btn-1:hover {
-    background-color: black;
+    background-color: var(--green);
     color: white;
     width: 220px;
     margin-top: 10px;
     margin-right: 20px;
+    border-radius: 40px;
+    transition: .5s;
 }
 
 

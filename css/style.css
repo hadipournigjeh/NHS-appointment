@@ -181,18 +181,18 @@ hr {
 
 .img-karma {
     margin-left: 100px;
-    margin-right: 20px;
-    /* width: 40%; */
+    margin-right: 40px;
     height: 100%;
     object-fit: cover;
+    margin-top: 100px;
 }
 
-.karma-img {
+/* .karma-img {
     background-color: blue;
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
 .karma-text {
     text-align: center;
@@ -221,13 +221,21 @@ hr {
     border: none;
 }
 
-.karma-btn:hover {
+/* .karma-btn:hover {
     background-color: white;
     color: rgb(255, 111, 58);
     border: 2px solid rgb(255, 111, 58);
     ;
-}
+} */
 
 .quotationMarks {
-    color: rgb(255, 111, 58);
+    color: var(--grey-light);
+}
+
+.welcome-text {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 300px;
+    padding-bottom: 70px;
 }
