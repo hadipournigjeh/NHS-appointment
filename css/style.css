@@ -1,3 +1,14 @@
+/* main colours */
+
+:root {
+    --grey-light: #F7F9FB;
+    --blue-light: #8FC1E3;
+    --blue-middle: #5085A5;
+    --blue: #31708E;
+    --green: #687864;
+}
+
+
 /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
@@ -163,7 +174,7 @@ hr {
 .karma-design {
     /* width: 100%; */
     display: flex;
-    background-color: #ffe6e6;
+    background-color: var(--blue-light);
     margin: 50px 0 20px 0;
     height: 100%;
 }
