@@ -169,7 +169,9 @@ hr {
 }
 
 .img-karma {
-    width: 40%;
+    margin-left: 100px;
+    margin-right: 20px;
+    /* width: 40%; */
     height: 100%;
     object-fit: cover;
 }
