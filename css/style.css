@@ -81,12 +81,17 @@ a:hover {
 .text-img {
     top: 50%;
     position: absolute;
-    left: 50%;
+    left: 22%;
     transform: translate(-50%, -50%)
+}
+
+.text-img h1 {
+  color: var(--blue);
 }
 
 .background-img {
     position: relative;
+    height: 30%;
 }
 
 h1,
@@ -176,8 +181,10 @@ ul {
 .karma-design {
     /* width: 100%; */
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--blue-light);
-    margin: 50px 0 20px 0;
+    /* margin: 50px 0 20px 0; */
     height: 100%;
 }
 
@@ -197,13 +204,15 @@ ul {
 } */
 
 .karma-text {
+  max-width: 400px;
+    display: flex;
     text-align: center;
-    justify-content: right;
+    justify-content: center;
     align-content: center;
-    width: 40%;
+    /* width: 40%; */
     height: 100%;
     object-fit: cover;
-    padding-left: 150px;
+    /* padding-left: 150px; */
     padding-top: 85px;
 }
 
@@ -238,6 +247,6 @@ ul {
     text-align: center;
     justify-content: center;
     width: 100%;
-    margin-left: 300px;
+    margin-left: 350px;
     padding-bottom: 70px;
 }
