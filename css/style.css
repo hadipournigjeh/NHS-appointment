@@ -140,7 +140,7 @@ p {
 
 /* body styles */
 
-.karma-design {
+.NHS-design {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,7 +148,7 @@ p {
   height: 100%;
 }
 
-.img-karma {
+.img-btns {
   margin-left: 100px;
   margin-right: 40px;
   height: 100%;
@@ -156,7 +156,7 @@ p {
   margin-top: 100px;
 }
 
-.karma-text {
+.buttons-text {
   max-width: 400px;
   display: flex;
   text-align: center;
