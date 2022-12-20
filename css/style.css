@@ -138,6 +138,67 @@ p {
     font-size: 10px;
 }
 
+/* body styles */
+
+.karma-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-light);
+  height: 100%;
+}
+
+.img-karma {
+  margin-left: 100px;
+  margin-right: 40px;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 100px;
+}
+
+.karma-text {
+  max-width: 400px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  /* width: 40%; */
+  height: 100%;
+  object-fit: cover;
+  /* padding-left: 150px; */
+  padding-top: 85px;
+}
+
+.karma-text>h4 {
+  justify-content: center;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.karma-btn {
+  background-color: rgb(255, 111, 58);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.quotationMarks {
+  color: var(--grey-light);
+}
+
+.welcome-text {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: 350px;
+  padding-bottom: 70px;
+}
+
+
+
 
 
 
@@ -305,77 +366,3 @@ ul {
 }
 
 
-/* Karma design */
-
-.karma-design {
-    /* width: 100%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--blue-light);
-    /* margin: 50px 0 20px 0; */
-    height: 100%;
-}
-
-.img-karma {
-    margin-left: 100px;
-    margin-right: 40px;
-    height: 100%;
-    object-fit: cover;
-    margin-top: 100px;
-}
-
-/* .karma-img {
-    background-color: blue;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-
-.karma-text {
-  max-width: 400px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    /* width: 40%; */
-    height: 100%;
-    object-fit: cover;
-    /* padding-left: 150px; */
-    padding-top: 85px;
-}
-
-.karma-text>h4 {
-    justify-content: center;
-    font-size: 35px;
-    font-weight: lighter;
-}
-
-.karma-btn {
-    background-color: rgb(255, 111, 58);
-    color: white;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-}
-
-/* .karma-btn:hover {
-    background-color: white;
-    color: rgb(255, 111, 58);
-    border: 2px solid rgb(255, 111, 58);
-    ;
-} */
-
-.quotationMarks {
-    color: var(--grey-light);
-}
-
-.welcome-text {
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    margin-left: 350px;
-    padding-bottom: 70px;
-}
