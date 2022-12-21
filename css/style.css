@@ -44,35 +44,36 @@ nav .bar{
   padding: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   align-content: center;
   font-weight: 500;
   font-size: 1.4rem;
   /* align-items: baseline; it does not work */
-  /* gap: 1rem; */
+  gap: 1rem;
 }
 
-li {
+.libar {
   width: auto;
   text-decoration: none;
   list-style: none; 
   display: block;
   align-content: center;
   padding: 0.60rem;
-  border: 1px solid var(--grey-light);
+  /* border: 1px solid var(--grey-light); */
   /* color: var(--blue) ; */
-  background-color: var(--grey-light);
-  border-radius: 12%;
+  /* background-color: var(--grey-light); */
+  border-radius: 19%;
 }
 
-a {
+.hd {
   width: 100%;
   text-decoration: none;
+  border: none;
 }
 
 .bar :hover {
-  background-color: rgb(148, 214, 236);  
+  background-color: rgb(210, 240, 250); 
 }
 /* last item fromo header */
 
@@ -178,7 +179,7 @@ Footer
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
-.single-cta i {
+.single-cta  {
   color: #ff5e14;
   font-size: 30px;
   float: left;
@@ -300,16 +301,16 @@ Footer
     border: 1px solid #ff5e14;
     top: 0;
 }
-.subscribe-form button i {
+/* .subscribe-form button i {
   color: #fff;
   font-size: 22px;
   transform: rotate(-6deg);
 }
 .copyright-area{
   background: #202020;
-  padding: 25px 0;
+  padding: 25px 0; */
 }
-.copyright-text p {
+/* .copyright-text p {
   margin: 0;
   font-size: 14px;
   color: #878787;
@@ -327,7 +328,7 @@ Footer
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
-}
+} */
 
 
 /* Karma design */
