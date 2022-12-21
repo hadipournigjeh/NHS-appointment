@@ -22,15 +22,84 @@ body {
     object-fit: cover;
 }
 
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
- */
+/* ====header start here==== */
+
+:root {
+  --grey-light: #F7F9FB;
+  --blue-light: #8FC1E3;
+  --blue-middle: #5085A5;
+  --blue: #31708E;
+  --green: #687864;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--blue-light);
+}
+
+*{
+box-sizing: border-box;
+}
+
+header{ 
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: 10rem;
+padding-bottom: 1rem;
+
+}
+
+header logo{
+height: 100%;
+
+}
+
+nav {
+padding: auto;
+width: 80%;
+/* background-color: yellow; */
+}
+
+nav .bar{
+width: 100%;
+padding: auto;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+align-content: center;
+font-weight: 500;
+font-size: 1.4rem;
+/* align-items: baseline; it does not work */
+gap: 1rem;
+}
+
+.libar {
+width: auto;
+text-decoration: none;
+list-style: none; 
+display: block;
+align-content: center;
+padding: 0.60rem;
+/* border: 1px solid var(--grey-light); */
+/* color: var(--blue) ; */
+/* background-color: var(--grey-light); */
+border-radius: 19%;
+}
+
+.hd {
+width: 100%;
+text-decoration: none;
+border: none;
+}
+
+.bar :hover {
+background-color: rgb(210, 240, 250); 
+}
+/* ====header finish here==== */
 
 
 body {
@@ -50,14 +119,14 @@ header {
     padding: 15px 100px;
 }
 
-a {
+/* a {
     color: rgb(123, 123, 123);
     text-decoration: none;
 }
 
 a:hover {
     color: orangered;
-}
+} */
 
 .nav-text {
     display: flex;
