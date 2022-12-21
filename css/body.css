@@ -1,4 +1,3 @@
-/* main colours */
 
 :root {
     --grey-light: #F7F9FB;
@@ -44,14 +43,6 @@ body {
     height: 100%;
 }
 
-.img-btns {
-    margin-left: 100px;
-    margin-right: 40px;
-    height: 100%;
-    object-fit: cover;
-    margin-top: 100px;
-}
-
 .buttons-text {
     max-width: 400px;
     display: flex;
@@ -60,10 +51,11 @@ body {
     align-content: center;
     height: 100%;
     object-fit: cover;
-    padding-top: 85px;
+    padding: 44px 0;
 }
 
 .welcome-text {
+    display: contents;
     text-align: center;
     justify-content: center;
     width: 100%;
@@ -92,19 +84,17 @@ body {
 }
 
 .btn-2 {
-    background-color: black;
+    background-color: var(--blue);
     color: white;
     width: 220px;
-    margin-top: 10px;
     transition: .8s;
 }
 
 .btn-2:hover {
-    background-color: var(--green);
+    background-color: var(--blue-light);
     color: black;
     width: 220px;
-    margin-top: 10px;
-    border-radius: 40px;
+    border-radius: 10px;
     transition: .5s;
 }
 
@@ -112,24 +102,49 @@ body {
     background-color: white;
     color: black;
     width: 220px;
-    margin-top: 10px;
     margin-right: 20px;
     transition: .8s;
 }
 
 .btn-1:hover {
-    background-color: var(--green);
+    background-color: var(--blue-light);
     color: white;
     width: 220px;
-    margin-top: 10px;
     margin-right: 20px;
-    border-radius: 40px;
+    border-radius: 10px;
     transition: .5s;
+}
+
+.info {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+.contain {
+    width: 100%;
+    display: flex;
+    background-color: var(--blue-light);
+    border-top: 1.5px solid var(--blue);
 }
 
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+}
+
+.information {
+    width: 70%;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+}
+
+.img-btns {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
