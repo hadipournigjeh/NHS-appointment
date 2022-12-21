@@ -1,0 +1,41 @@
+:root {
+    --grey-light: #F7F9FB;
+    --blue-light: #8FC1E3;
+    --blue-middle: #5085A5;
+    --blue: #31708E;
+    --green: #687864;
+}
+
+.footer-section {
+    background: #5F6F94;
+    position: relative;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.single-cta i {
+    color: #FEF5AC;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+}
+
+.cta-text {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.cta-text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.cta-text span {
+    color: white;
+    font-size: 15px;
+}
