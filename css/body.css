@@ -13,7 +13,7 @@ body {
     padding: 0px;
     margin: 0px;
     text-align: center;
-    background-color: var(--blue-light);
+    /* background-color: var(--blue-light); */
 }
 
 .bg-img {
@@ -43,6 +43,13 @@ body {
     height: 100%;
 }
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
 .buttons-text {
     max-width: 400px;
     display: flex;
@@ -52,6 +59,22 @@ body {
     height: 100%;
     object-fit: cover;
     padding: 44px 0;
+}
+
+.btn1 {
+    width: 50%;
+    display: inline-block;
+    background-color: var(--blue-light);
+    margin: 0;
+    height: auto;
+}
+
+.btn2 {
+    width: 49.3%;
+    display: inline-block;
+    background-color: var(--blue-light);
+    float: left;
+    height: auto;
 }
 
 .welcome-text {
@@ -94,7 +117,7 @@ body {
     background-color: var(--blue-light);
     color: black;
     width: 220px;
-    border-radius: 10px;
+    border-radius: 50px;
     transition: .5s;
 }
 
@@ -111,11 +134,16 @@ body {
     color: white;
     width: 220px;
     margin-right: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     transition: .5s;
 }
 
+u {
+    color: var(--grey-light);
+}
+
 .info {
+    background-color: white;
     width: 50%;
     text-align: center;
     justify-content: center;
@@ -124,7 +152,7 @@ body {
 .contain {
     width: 100%;
     display: flex;
-    background-color: var(--blue-light);
+    /* background-color: var(--blue-light); */
     border-top: 1.5px solid var(--blue);
 }
 
@@ -134,17 +162,23 @@ h1 {
 }
 
 .information {
+    font-family: 'Times New Roman', Times, serif;
     width: 70%;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12%;
+    margin-top: 17%;
 }
 
 .img-btns {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+hr {
+    background-color: aquamarine;
+    margin: 0;
 }
 
 
