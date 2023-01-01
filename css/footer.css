@@ -39,3 +39,9 @@ ul {
     color: white;
     font-size: 15px;
 }
+.fa { 
+    align-items: center;
+    margin-left: 10px;
+    font-size: 30px;
+    color: #FEF5AC;
+}
