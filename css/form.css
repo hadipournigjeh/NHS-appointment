@@ -1,0 +1,68 @@
+
+/* =============Form questionaire========= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap'); 
+
+*{
+    box-sizing: 0;
+}
+/*  
+.header,
+.content,  */
+/* body {
+    padding: 0 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1rem;
+    background-color: white;
+} */
+
+select{
+    font-size: 1.4em;
+}
+
+body{
+    /* background: linear-gradient(to bottom, #33ccff 0%, #7cf4ff 100%); */
+    background: linear-gradient(to bottom, #0f083f 0%, #7cf4ff 100%);
+
+    min-height: 100vh;
+    font-family: "popping, sans-serif";
+} 
+
+.tittle{
+    /* padding-top: 0px; */
+    /* background-color: yellow; */
+
+    text-align: center;
+}
+
+.wrapper{
+    background: linear-gradient(to bottom, #7cf4ff 0%, #33ccff 100%);
+    border-radius: 35px;
+    border: 3px cyan solid;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+}
+
+.formContent{
+    width: 70%;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+}
+
+
+.submit input{
+    background-color: #4084f2;
+    margin: 2rem auto 2rem auto;
+    width: 15rem;
+    height: 3.5rem;
+    border: 0;
+    border-radius: 0.25rem;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
