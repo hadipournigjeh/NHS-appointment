@@ -24,7 +24,7 @@
                     <H2>Please tell us in a few words how we can help</H2>
                     <textarea placeholder="If your aswers is yes, please write here." required rows="5" cols="40"></textarea>
                 </div>
-                <H2>Tel us your sex</H2>
+                <H2>Tell us your sex</H2>
                 <label>Female</label>
                 <input type="radio" name="mark" checked>
                 <label>Male</label>
@@ -38,9 +38,9 @@
                 <textarea placeholder="If your aswers is yes, please write here." required rows="5" cols="40"></textarea>
 
                 <H2>Please tell us if you tried something for your problem?</H2>
-                <input type="radio" name="mark">
-                <input type="radio" name="mark">
-                <textarea placeholder="If your aswers is yes, please write here." required></textarea>
+                <input class="yes" type="radio" name="mark">
+                <input class="no" type="radio" name="mark">
+                <textarea class="text-box-1 hide" placeholder="If your aswers is yes, please write here." required></textarea>
 
                 <H2>Please describe your symptoms and how long they are.</H2>
                 <input type="radio" name="mark">
@@ -53,9 +53,9 @@
                 <textarea placeholder="If your aswers is yes, please write here." required></textarea>
 
                 <H2>Is this medication help?</H2>
-                <input type="radio" name="mark">
-                <input type="radio" name="mark">
-                <textarea placeholder="If your aswers is no, please write why is not helping you." required></textarea>
+                <input class="yes2" type="radio" name="mark">
+                <input class="no2" type="radio" name="mark">
+                <textarea class="text-box-2 hide" placeholder="If your aswers is no, please write why is not helping you." required></textarea>
 
                 <H2>Is there anything that triggers your problem?</H2>
                 <input type="radio" name="mark">
@@ -121,6 +121,8 @@
             </div>
         </form>
     </main>
+    <script src="/js/script.js"></script>
+
 </body>
 
 </html>
