@@ -116,7 +116,7 @@ h2 {
 .btn-2:hover {
     background-color: var(--blue-light);
     color: black;
-    width: 220px;
+    /* width: 220px; */
     border-radius: 50px;
     transition: .5s;
 }
